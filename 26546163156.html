@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Class and Id</title>
+	<style>
+	body{
+		/*url(),rgb(),hsl() -> inbuilt functions */
+		background-image:url("images/draft.jpg");
+	}
+		.standout{
+			color: red;
+			font-family: cursive;
+		}
+		.special{
+			background-color: yellow;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<!-- div is used to logically devide your page -->
+	<!-- make rows and col -->
+	<!-- div - block level, span - inline -->
+	<div class="standout">
+		<p>Para1 <span class="special">special text</span> </p>
+		<p>Para2</p>
+		<h1>Heading</h1>
+	</div>
+	<div class="special">
+		<p>Para3 <span class="standout">standout text</span></p>
+		<p>Para4</p>
+	</div>
+</body>
+</html>
